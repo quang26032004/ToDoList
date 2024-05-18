@@ -1,0 +1,59 @@
+{
+  "todoList": [
+    {
+      "id": "1",
+      "description": "Learn React",
+      "done": false
+    },
+    {
+      "id": "2",
+      "description": "Learn Redux",
+      "done": false
+    },
+    {
+      "id": "3",
+      "description": "Learn React Native",
+      "done": true
+    },
+    {
+      "id": "4",
+      "description": "Learn Node.js",
+      "done": true
+    },
+    {
+      "id": "5",
+      "description": "Learn Express",
+      "done": false
+    },
+    {
+      "id": "6",
+      "description": "Learn MongoDB",
+      "done": false
+    },
+    {
+      "id": "7",
+      "description": "Learn Angular",
+      "done": false
+    },
+    {
+      "id": "8",
+      "description": "Learn Vue",
+      "done": true
+    },
+    {
+      "id": "9",
+      "description": "Learn Ember",
+      "done": false
+    },
+    {
+      "id": "10",
+      "description": "Learn Backbone",
+      "done": true
+    },
+    {
+      "id": "9dd6",
+      "name": "Do homework",
+      "completed": false
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.btn-setUser,
+.btn-reset,
+.btn-edit,
+.btn-delete {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+}
+  
+* {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr,
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.user-page {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-page h1 {
+  margin: 20px 0;
+}
+
+/* form-section */
+
+.form-section {
+  margin: 0 0 40px 0;
+  border: 2px solid rgba(167, 204, 18, 0.828);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-section input {
+  display: block;
+  width: 400px;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.form-section-item {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  gap: 20px;
+}
+
+.form-section-item label {
+  display: block;
+  width: 100px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.form-section-item select {
+  width: 200px;
+  height: 40px;
+  display: block;
+  padding: 0 10px;
+}
+
+.form-btn-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  gap: 20px;
+}
+
+.btn-setUser {
+  width: 100px;
+  height: 40px;
+  background-color: #007bff;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn-setUser:hover {
+  background-color: #0056b3;
+}
+
+.btn-reset {
+  width: 100px;
+  height: 40px;
+  background-color: #dc3545;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn-reset:hover {
+  background-color: #bd2130;
+}
+
+.btn-edit {
+    width: 100px;
+    height: 40px;
+    background-color: #e6e6e6;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn-edit:hover {
+    background-color: #d9d9d9;
+}
+
+.btn-delete {
+  width: 100px;
+  height: 40px;
+  background-color: #dc3545;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn-delete:hover {
+  background-color: #bd2130;
+}
